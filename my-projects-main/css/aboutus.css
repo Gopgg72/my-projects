@@ -1,0 +1,98 @@
+
+
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+}
+
+
+p {
+    display: flex;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Inder;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: justify;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-image: url("skyes.jpg");
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    align-items: center;
+    background-color: #8c9aac;
+}
+
+body {
+    padding-top: 100px;
+}
+
+
+
+.rec1 {
+    position: absolute;
+    width: 750px;
+    height: 526px;
+    left: 400px;
+    right: 0;
+    top: 175px;
+    bottom: 0;
+    border-radius: 25px;
+    background: rgb(227, 246, 255);
+}
+
+.about1 {
+    position: absolute;
+    width: 252px;
+    height: 83px;
+    left: 670px;
+    right: 0;
+    top: 200px;
+    bottom: 0;
+    font-family: Inter;
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 77px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.about2 {
+    position: absolute;
+    width: 500px;
+    height: 83px;
+    left: 530px;
+    right: 0;
+    top: 320px;
+    bottom: 0;
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 77px;
+    letter-spacing: 0px;
+    text-align: center;
+}

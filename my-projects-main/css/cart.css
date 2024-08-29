@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(227, 246, 255);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #8c9aac;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    flex-direction: row;
+
+}
+
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex: 1;
+}
+.product-card {
+    background-color: #FFCC80;
+    border: 1px solid #FFA726;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+}
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.product-card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.product-card p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+.product-card button {
+    background-color: #FF7043;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product-card button:hover {
+    background-color: #F4511E;
+}
+.products {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+.order-info {
+    background-color: #FFE0B2;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: center;
+}
+.order-info h2 {
+    color: #D84315;
+    margin-bottom: 10px;
+}
+.order-info p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+.footer {
+    background-color: #FFB74D;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cart-items-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+
+    .product-card {
+        max-width: 100%;
+    }
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+    .order-info {
+        padding: 15px;
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner {
+        padding: 40px 0;
+    }
+    .nav a {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+    .order-info p {
+        font-size: 1em;
+    }
+}
